@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item img{
+    height: 100vh;
+}
+
+.carousel-indicators{
+    visibility: hidden;
+}
+
+.container1, .container2, .container3, #section3{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.container1 img, .container2 img,.container3 img{
+    width: 100%;
+    height: 200px;
+}
+
+
+.container1 .card{
+    border: none !important;
+}
+
+.card{
+    margin: auto !important;
+}
+
+.container2 .container {
+    grid-template-columns: 4fr 2fr 2fr 4fr;
+    
+    grid-gap: 10px;
+}
+
+.item1{
+    grid-row: 1/4;
+}
+
+.item1 img{
+    height: 50%;
+}
+
+.item2{
+    grid-row: 1/4;
+    grid-column: 2/4;
+}
+
+.item3{
+    grid-row: 1/4;
+    grid-column: 3/4;
+}
+
+.item4{
+    grid-row: 1/4;
+    grid-column: 4/4;
+}
+
+.foot{
+    padding: 3rem;
+}
+
+@media screen and (min-width: 996px){
+    #navbarSupportedContent{
+        justify-content: space-between;
+        padding-right: 10rem;
+    }
+    
+    .navbar-brand{
+        padding-left: 10rem;
+    }
+
+}
+
+
